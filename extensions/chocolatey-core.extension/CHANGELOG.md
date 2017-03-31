@@ -1,7 +1,9 @@
 # CHANGELOG
 
-## Version 1.2.0
+## Version 1.3.0
 - `Install-ChocolateyInstallPackage`: Overrides chocos own function and provides option to use 64-bit files
+
+## Version 1.2.0
 - Use `$IgnoredArguments` in all functions to allow for future expansion and splatting ([#621](https://github.com/chocolatey/chocolatey-coreteampackages/issues/621))
 - Bugfix in `Get-PackageParameters` parsing of paths containing symbol chars.
 
